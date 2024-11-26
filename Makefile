@@ -43,6 +43,7 @@ clean:            ## Clean unused files.
 	@rm -rf htmlcov
 	@rm -rf .tox/
 	@rm -rf docs/_build
+	@rm -rf *.log
 
 .PHONY: virtualenv
 virtualenv:       ## Create a virtual environment.
