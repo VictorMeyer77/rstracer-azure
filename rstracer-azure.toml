@@ -1,0 +1,14 @@
+
+frequency = 300
+
+[source]
+directory = "export"
+format = "parquet"
+
+[credentials]
+account = ""
+access_key = ""
+
+[storage]
+container = "rstracer"
+directory = "raw"
